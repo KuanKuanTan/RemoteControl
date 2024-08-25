@@ -6,12 +6,12 @@ Server端可用GUI介面對Client(服務端)進行傳送訊息、傳送訊息方
   3.webbrowser
   4.socket
 #使用說明:
-  ##檔案說明:
-  `server.py`:伺服器控制端
-  `client.py`:服務接收端
-  ##使用說明:
-  先在server端執行server.py，終端機會顯示server的IP地址，請記下。然後在client端執行client.py，並在終端機中輸入server的IP地址，成功連線上後server端會自動開啟GUI介面。
-  ##功能說明:
+##檔案說明:
+`server.py`:伺服器控制端
+`client.py`:服務接收端
+##使用說明:
+先在server端執行server.py，終端機會顯示server的IP地址，請記下。然後在client端執行client.py，並在終端機中輸入server的IP地址，成功連線上後server端會自動開啟GUI介面。
+##功能說明:
   1.傳送訊息:在輸入框中寫入訊息後，按下send，訊息就會顯示在client端的終端機上
   2.發送訊息方塊:在輸入框中寫入訊息後，按下send，訊息框就會顯示在client端的螢幕上
   3.開啟網站:在輸入框中輸入網址後，按下send，client端就會在預設瀏覽器中開啟網站
