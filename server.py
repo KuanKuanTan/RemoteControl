@@ -53,10 +53,6 @@ def runcd():
     message = "cmd(" + entry_4.get() + ")"
     client_socket.send(message.encode())
 tk.Button(windows,text = "send",command=runcd).pack()
-tk.Label(windows, text = "服務端回傳訊息:").pack()
-
-Client_label = tk.Label(windows, text = "暫無消息")
-Client_label.pack()
 
 def quit():
     client_socket.send("quit".encode())
